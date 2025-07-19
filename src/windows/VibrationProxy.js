@@ -80,8 +80,8 @@ function tryParsePatternValues (pattern) {
 
     return {
         parsed: pattern,
-        passed: passed,
-        failedItem: failedItem
+        passed,
+        failedItem
     };
 }
 
@@ -120,8 +120,8 @@ function checkPatternReqs (args, fail) {
     }
 
     return {
-        passed: passed,
-        patternParsingResult: patternParsingResult
+        passed,
+        patternParsingResult
     };
 }
 
